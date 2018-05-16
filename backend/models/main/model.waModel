@@ -20,8 +20,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 245,
-						"Y": 20
+						"X": 263,
+						"Y": 21
 					}
 				}
 			},
@@ -31,8 +31,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 465,
-						"Y": 20
+						"X": 497,
+						"Y": 24
 					}
 				}
 			},
@@ -42,8 +42,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 685,
-						"Y": 20
+						"X": 728,
+						"Y": 22
 					}
 				}
 			},
@@ -64,8 +64,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 274,
-						"Y": 234
+						"X": 279,
+						"Y": 282
 					}
 				}
 			}
@@ -83,6 +83,9 @@
 				},
 				"Pielegniarka": {
 					"method": "Pielegniarka/Pielegniarka-methods.js"
+				},
+				"Szpital": {
+					"method": "Szpital/Szpital-methods.js"
 				}
 			}
 		}
@@ -158,9 +161,28 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "Plec",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Dolegliwosc",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
 				}
 			],
 			"methods": [
+				{
+					"name": "Dolegliwosc",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Pacjent.entityMethods.Dolegliwosc",
+					"userDefined": true
+				},
 				{
 					"name": "Zapis_Wizyta",
 					"applyTo": "entity",
@@ -265,6 +287,22 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "Zatrud_Lekarz",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Szpital.entityMethods.Zatrud_Lekarz",
+					"userDefined": true
+				},
+				{
+					"name": "Zatrud_Pielegniarka",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Szpital.entityMethods.Zatrud_Pielegniarka",
+					"userDefined": true
 				}
 			]
 		},
