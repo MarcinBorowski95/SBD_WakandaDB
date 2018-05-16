@@ -9,8 +9,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 31,
-						"Y": 20
+						"X": 551,
+						"Y": 394
 					}
 				}
 			},
@@ -20,8 +20,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 263,
-						"Y": 21
+						"X": 832,
+						"Y": 271
 					}
 				}
 			},
@@ -31,8 +31,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 497,
-						"Y": 24
+						"X": 264,
+						"Y": 394
 					}
 				}
 			},
@@ -42,8 +42,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 728,
-						"Y": 22
+						"X": 831,
+						"Y": 26
 					}
 				}
 			},
@@ -53,8 +53,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 37,
-						"Y": 256
+						"X": 16,
+						"Y": 223
 					}
 				}
 			},
@@ -64,9 +64,20 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 279,
-						"Y": 282
+						"X": 35,
+						"Y": 5
 					}
+				}
+			},
+			"Oddzial": {
+				"panelColor": "#C3D69B",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 351,
+						"Y": 15
+					},
+					"pathVisible": true
 				}
 			}
 		},
@@ -87,6 +98,10 @@
 				"Szpital": {
 					"method": "Szpital/Szpital-methods.js"
 				}
+			},
+			"relationCurve": {
+				"run": true,
+				"mode": 1
 			}
 		}
 	},
@@ -123,6 +138,21 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "wizytaCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Lekarz",
+					"type": "WizytaCollection",
+					"kind": "relatedEntities"
+				},
+				{
+					"name": "Oddzial",
+					"scope": "public",
+					"path": "Oddzial",
+					"type": "Oddzial",
+					"kind": "relatedEntity"
 				}
 			],
 			"methods": [
@@ -173,6 +203,22 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "wizytaCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Pacjent",
+					"type": "WizytaCollection",
+					"kind": "relatedEntities"
+				},
+				{
+					"name": "pielegniarkaCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Pacjent",
+					"type": "PielegniarkaCollection",
+					"kind": "relatedEntities"
 				}
 			],
 			"methods": [
@@ -218,6 +264,13 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "Pacjent",
+					"scope": "public",
+					"path": "Pacjent",
+					"type": "Pacjent",
+					"kind": "relatedEntity"
 				}
 			],
 			"methods": [
@@ -258,6 +311,21 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "wizytaCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Pomieszczenie",
+					"type": "WizytaCollection",
+					"kind": "relatedEntities"
+				},
+				{
+					"name": "Oddzial",
+					"scope": "public",
+					"path": "Oddzial",
+					"type": "Oddzial",
+					"kind": "relatedEntity"
 				}
 			]
 		},
@@ -287,6 +355,14 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "oddzialCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Szpital",
+					"type": "OddzialCollection",
+					"kind": "relatedEntities"
 				}
 			],
 			"methods": [
@@ -327,6 +403,57 @@
 					"scope": "public",
 					"type": "date",
 					"simpleDate": false
+				},
+				{
+					"name": "Pacjent",
+					"scope": "public",
+					"path": "Pacjent",
+					"type": "Pacjent",
+					"kind": "relatedEntity"
+				},
+				{
+					"name": "Lekarz",
+					"scope": "public",
+					"path": "Lekarz",
+					"type": "Lekarz",
+					"kind": "relatedEntity"
+				},
+				{
+					"name": "Pomieszczenie",
+					"scope": "public",
+					"path": "Pomieszczenie",
+					"type": "Pomieszczenie",
+					"kind": "relatedEntity"
+				}
+			]
+		},
+		{
+			"collectionName": "OddzialCollection",
+			"className": "Oddzial",
+			"extends": "Szpital",
+			"attributes": [
+				{
+					"name": "pomieszczenieCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Oddzial",
+					"type": "PomieszczenieCollection",
+					"kind": "relatedEntities"
+				},
+				{
+					"name": "Szpital",
+					"scope": "public",
+					"path": "Szpital",
+					"type": "Szpital",
+					"kind": "relatedEntity"
+				},
+				{
+					"name": "lekarzCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Oddzial",
+					"type": "LekarzCollection",
+					"kind": "relatedEntities"
 				}
 			]
 		}
