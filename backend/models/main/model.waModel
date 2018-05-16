@@ -1,1 +1,296 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "2",        "classes": {        },        "model": {            "scriptMode": "manual"        }    },    "dataClasses": []}
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Lekarz": {
+				"panelColor": "#548DD4",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 31,
+						"Y": 20
+					}
+				}
+			},
+			"Pacjent": {
+				"panelColor": "#B2A2C7",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 245,
+						"Y": 20
+					}
+				}
+			},
+			"Szpital": {
+				"panelColor": "#996699",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 465,
+						"Y": 20
+					}
+				}
+			},
+			"Wizyta": {
+				"panelColor": "#C3D69B",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 685,
+						"Y": 20
+					}
+				}
+			},
+			"Pomieszczenie": {
+				"panelColor": "#8DB3E2",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 37,
+						"Y": 256
+					}
+				}
+			},
+			"Pielegniarka": {
+				"panelColor": "#4FA997",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 274,
+						"Y": 234
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"Pacjent": {
+					"method": "Pacjent/Pacjent-methods.js"
+				},
+				"Lekarz": {
+					"method": "Lekarz/Lekarz-methods.js"
+				},
+				"Pielegniarka": {
+					"method": "Pielegniarka/Pielegniarka-methods.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Lekarz",
+			"className": "Lekarz",
+			"collectionName": "LekarzCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Imie",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Nazwisko",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Specjalizacja",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "Obs_Wizita",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Lekarz.entityMethods.Obs_Wizita",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Pacjent",
+			"className": "Pacjent",
+			"collectionName": "PacjentCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Imie",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Nazwisko",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "Zapis_Wizyta",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Pacjent.entityMethods.Zapis_Wizyta",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Pielegniarka",
+			"className": "Pielegniarka",
+			"collectionName": "PielegniarkaCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Imie",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Nazwisko",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "Obs_Pacjent",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Pielegniarka.entityMethods.Obs_Pacjent",
+					"userDefined": true
+				},
+				{
+					"name": "Tworz_Wizyta",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Pielegniarka.entityMethods.Tworz_Wizyta",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Pomieszczenie",
+			"className": "Pomieszczenie",
+			"collectionName": "PomieszczenieCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "Nr_Pokoju",
+					"kind": "storage",
+					"matchColumn": "ID",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Przeznaczenie",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"name": "Szpital",
+			"className": "Szpital",
+			"collectionName": "SzpitalCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Adres",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Specjalizacja",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"name": "Wizyta",
+			"className": "Wizyta",
+			"collectionName": "WizytaCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Termin",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				}
+			]
+		}
+	]
+}
