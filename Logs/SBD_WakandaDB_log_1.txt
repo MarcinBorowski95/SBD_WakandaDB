@@ -1,0 +1,84 @@
+2018-05-18 18:27:19 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:27:19 [wakanda] INFO - Opens the solution "C:\Users\bomar\Documents\Wakanda\solutions\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #10196
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #10196
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #10196
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #10196
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #10196
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:27:19 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:28:25 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:28:25 [wakanda] INFO - Opens the solution "C:\Users\bomar\Documents\Wakanda\solutions\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #27444
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #27444
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #27444
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #27444
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #27444
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:28:25 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:28:26 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:28:59 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:28:59 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #25708
+2018-05-18 18:28:59 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #25708
+2018-05-18 18:28:59 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #25708
+2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #25708
+2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #25708
+2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:29:00 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:29:00 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:33:08 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:33:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #11752
+2018-05-18 18:33:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #11752
+2018-05-18 18:33:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #11752
+2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #11752
+2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #11752
+2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:33:09 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:33:09 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:33:32 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:33:32 [wakanda] INFO - Opens the solution "C:\Users\bomar\Documents\Wakanda\solutions\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:33:32 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.FakeID built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.SzpitalL built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID_Lekarz built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID_Pacjent built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.Szpital built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID_Pielegniarka built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-18 18:33:33 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-18 18:33:33 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-18 18:33:33 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 584 ms)
+2018-05-18 18:33:33 [wakanda.supervisor] INFO - solution opened

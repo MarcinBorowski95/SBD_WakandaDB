@@ -42,8 +42,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 470,
-						"Y": 486
+						"X": 513,
+						"Y": 547
 					}
 				}
 			},
@@ -74,31 +74,32 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 57,
-						"Y": 18
-					}
+						"X": 82,
+						"Y": 5
+					},
+					"pathVisible": true
 				}
 			},
 			"SzpitalAbstract": {
 				"panelColor": "#eee",
 				"panel": {
 					"isOpen": "true",
+					"pathVisible": true,
 					"position": {
 						"X": 28,
 						"Y": 395
-					},
-					"pathVisible": true
+					}
 				}
 			},
 			"OddzialSzpitalAbstract": {
 				"panelColor": "#548DD4",
 				"panel": {
 					"isOpen": "true",
+					"pathVisible": true,
 					"position": {
 						"X": 453,
 						"Y": 5
-					},
-					"pathVisible": true
+					}
 				}
 			}
 		},
@@ -132,21 +133,123 @@
 			"className": "AbstractMethod",
 			"collectionName": "AbstractMethodCollection",
 			"scope": "public",
-			"attributes": [],
 			"methods": [
 				{
-					"name": "Zatrud_lekarz",
+					"name": "Zatrud_Lekarz",
 					"applyTo": "entity",
 					"scope": "publicOnServer",
-					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_lekarz",
+					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Lekarz",
 					"userDefined": true
 				},
 				{
-					"name": "Zatrud_Pielegniarka",
+					"name": "Zatrud_Pielegniarke",
 					"applyTo": "entity",
 					"scope": "publicOnServer",
-					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Pielegniarka",
+					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Pielegniarke",
 					"userDefined": true
+				}
+			],
+			"attributes": [
+				{
+					"name": "FakeID",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
+				}
+			]
+		},
+		{
+			"name": "SzpitalAbstract",
+			"className": "SzpitalAbstract",
+			"collectionName": "SzpitalAbstractCollection",
+			"scope": "public",
+			"extends": "AbstractMethod",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long",
+					"primKey": "true",
+					"unique": "true"
+				},
+				{
+					"name": "Adres",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Specjalizacja",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "oddzialSzpitalAbstractCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "OddzialSzpitalAbstractCollection",
+					"reversePath": true,
+					"path": "szpitalAbstract"
+				},
+				{
+					"name": "pielegnierkaNazwaCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "PielegnierkaNazwaCollection",
+					"reversePath": true,
+					"path": "Szpital"
+				},
+				{
+					"name": "lekarzNazwaCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "LekarzNazwaCollection",
+					"reversePath": true,
+					"path": "SzpitalL"
+				}
+			]
+		},
+		{
+			"name": "OddzialSzpitalAbstract",
+			"className": "OddzialSzpitalAbstract",
+			"collectionName": "OddzialSzpitalAbstractCollection",
+			"scope": "public",
+			"extends": "SzpitalAbstract",
+			"attributes": [
+				{
+					"name": "lekarzNazwaCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "LekarzNazwaCollection",
+					"reversePath": true,
+					"path": "oddzialSzpitalAbstract"
+				},
+				{
+					"name": "szpitalAbstract",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "SzpitalAbstract",
+					"path": "SzpitalAbstract"
+				},
+				{
+					"name": "pomieszczenieCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "PomieszczenieCollection",
+					"reversePath": true,
+					"path": "oddzialSzpitalAbstract"
+				},
+				{
+					"name": "ID_Oddzial",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
 				}
 			]
 		},
@@ -213,6 +316,14 @@
 					"type": "WizytaCollection",
 					"reversePath": true,
 					"path": "Pacjent"
+				},
+				{
+					"name": "ID_Pacjent",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
 				}
 			],
 			"methods": [
@@ -245,6 +356,21 @@
 					"scope": "public",
 					"type": "PacjentNazwa",
 					"path": "PacjentNazwa"
+				},
+				{
+					"name": "Szpital",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "SzpitalAbstract",
+					"path": "SzpitalAbstract"
+				},
+				{
+					"name": "ID_Pielegniarka",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
 				}
 			],
 			"methods": [
@@ -288,9 +414,25 @@
 				{
 					"name": "oddzialSzpitalAbstract",
 					"kind": "relatedEntity",
+					"scope": "public",
 					"type": "OddzialSzpitalAbstract",
-					"path": "OddzialSzpitalAbstract",
-					"scope": "public"
+					"path": "OddzialSzpitalAbstract"
+				},
+				{
+					"name": "SzpitalL",
+					"kind": "relatedEntity",
+					"matchColumn": "Szpita",
+					"scope": "public",
+					"type": "SzpitalAbstract",
+					"path": "SzpitalAbstract"
+				},
+				{
+					"name": "ID_Lekarz",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
 				}
 			],
 			"methods": [
@@ -336,9 +478,9 @@
 				{
 					"name": "oddzialSzpitalAbstract",
 					"kind": "relatedEntity",
+					"scope": "public",
 					"type": "OddzialSzpitalAbstract",
-					"path": "OddzialSzpitalAbstract",
-					"scope": "public"
+					"path": "OddzialSzpitalAbstract"
 				}
 			]
 		},
@@ -384,69 +526,6 @@
 					"scope": "public",
 					"type": "Pomieszczenie",
 					"path": "Pomieszczenie"
-				}
-			]
-		},
-		{
-			"collectionName": "SzpitalAbstractCollection",
-			"className": "SzpitalAbstract",
-			"extends": "AbstractMethod",
-			"attributes": [
-				{
-					"name": "ID",
-					"scope": "public",
-					"type": "long",
-					"kind": "storage"
-				},
-				{
-					"name": "Adres",
-					"scope": "public",
-					"type": "string",
-					"kind": "storage"
-				},
-				{
-					"name": "Specjalizacja",
-					"scope": "public",
-					"type": "string",
-					"kind": "storage"
-				},
-				{
-					"name": "oddzialSzpitalAbstractCollection",
-					"scope": "public",
-					"reversePath": true,
-					"path": "szpitalAbstract",
-					"type": "OddzialSzpitalAbstractCollection",
-					"kind": "relatedEntities"
-				}
-			]
-		},
-		{
-			"collectionName": "OddzialSzpitalAbstractCollection",
-			"className": "OddzialSzpitalAbstract",
-			"extends": "SzpitalAbstract",
-			"attributes": [
-				{
-					"name": "szpitalAbstract",
-					"scope": "public",
-					"path": "SzpitalAbstract",
-					"type": "SzpitalAbstract",
-					"kind": "relatedEntity"
-				},
-				{
-					"name": "lekarzNazwaCollection",
-					"scope": "public",
-					"reversePath": true,
-					"path": "oddzialSzpitalAbstract",
-					"type": "LekarzNazwaCollection",
-					"kind": "relatedEntities"
-				},
-				{
-					"name": "pomieszczenieCollection",
-					"scope": "public",
-					"reversePath": true,
-					"path": "oddzialSzpitalAbstract",
-					"type": "PomieszczenieCollection",
-					"kind": "relatedEntities"
 				}
 			]
 		}
