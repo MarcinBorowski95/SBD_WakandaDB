@@ -73,11 +73,11 @@
 				"panelColor": "#996699",
 				"panel": {
 					"isOpen": "true",
+					"pathVisible": true,
 					"position": {
 						"X": 57,
 						"Y": 18
-					},
-					"pathVisible": true
+					}
 				}
 			},
 			"SzpitalAbstract": {
@@ -106,7 +106,7 @@
 		"model": {
 			"scriptMode": "manual",
 			"workspaceLeft": 0,
-			"workspaceTop": 0,
+			"workspaceTop": 100,
 			"lastScriptLocation": {
 				"PacjentNazwa": {
 					"method": "PacjentNazwa/PacjentNazwa-methods.js"
@@ -133,6 +133,16 @@
 			"className": "AbstractMethod",
 			"collectionName": "AbstractMethodCollection",
 			"scope": "public",
+			"attributes": [
+				{
+					"name": "Abstract_ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
+				}
+			],
 			"methods": [
 				{
 					"name": "Zatrud_Lekarz",
@@ -140,16 +150,6 @@
 					"scope": "publicOnServer",
 					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Lekarz",
 					"userDefined": true
-				}
-			],
-			"attributes": [
-				{
-					"name": "Abstract_ID",
-					"scope": "public",
-					"type": "long",
-					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
 				}
 			]
 		},
@@ -161,12 +161,12 @@
 			"extends": "AbstractMethod",
 			"attributes": [
 				{
-					"name": "ID",
+					"name": "Id_Szpital",
 					"kind": "storage",
 					"scope": "public",
+					"unique": true,
 					"type": "long",
-					"primKey": "true",
-					"unique": "true"
+					"primKey": true
 				},
 				{
 					"name": "Adres",
@@ -199,11 +199,11 @@
 			"attributes": [
 				{
 					"name": "ID_Oddzial",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				},
 				{
 					"name": "szpitalAbstract",
@@ -228,8 +228,7 @@
 					"reversePath": true,
 					"path": "oddzialSzpitalAbstract"
 				}
-			],
-			"primKey": "ID_Oddzial"
+			]
 		},
 		{
 			"name": "Nazwa",
@@ -244,8 +243,7 @@
 					"unique": true,
 					"autosequence": true,
 					"type": "long",
-					"primKey": true,
-					"identifying": false
+					"primKey": true
 				},
 				{
 					"name": "Imie",
@@ -270,11 +268,11 @@
 			"attributes": [
 				{
 					"name": "Id_Pacjent",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				},
 				{
 					"name": "Plec",
@@ -338,11 +336,11 @@
 				},
 				{
 					"name": "Id_Pielegniarka",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"unique": "true",
-					"primKey": "true"
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				}
 			],
 			"methods": [
@@ -392,11 +390,11 @@
 				},
 				{
 					"name": "Id_Lekarz",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				}
 			],
 			"methods": [
@@ -493,6 +491,5 @@
 				}
 			]
 		}
-	],
-	"type": []
+	]
 }

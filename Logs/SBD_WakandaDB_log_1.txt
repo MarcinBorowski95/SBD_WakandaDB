@@ -482,3 +482,122 @@
 2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
 2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
 2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 19:56:10 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:58:25 [wakanda.SBD_WakandaDB.backend.jvsc] ERROR - [4055] ds.dataClasses.all is not a function, line #1, file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js., task #4100, task name is HTTP connection handler
+2018-05-18 19:58:25 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:16 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:16 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:16 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:16 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:16 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:16 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:01:16 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:01:16 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:01:16 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:01:38 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:38 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:38 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:01:38 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:01:38 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:01:38 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:01:38 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:09:52 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 20:09:52 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 20:09:52 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 20:09:52 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 20:09:52 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 20:09:52 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 20:10:14 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 20:10:14 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 20:10:14 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 20:10:14 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 20:10:14 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 20:10:14 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 20:10:25 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 20:10:25 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 20:10:25 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 20:10:25 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 20:10:25 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 20:10:25 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 20:10:35 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 20:10:35 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 20:10:35 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 20:10:35 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 20:10:42 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 20:10:42 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 20:12:53 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 1 ms
+2018-05-18 20:12:53 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 20:12:53 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 20:12:53 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 20:12:53 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 20:12:53 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 20:16:04 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:04 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:04 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:04 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:16:04 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:16:04 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:16:04 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:16:11 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:11 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:11 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:11 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:16:11 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:16:11 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:16:11 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:16:13 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:13 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:13 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:16:13 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:16:13 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:16:13 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:16:13 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:17:03 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:17:03 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:03 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:03 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:03 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:17:03 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:17:03 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:17:35 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:35 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:35 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:35 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:17:35 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:17:35 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:17:35 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:17:40 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:40 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:40 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:40 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:17:40 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:17:40 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:17:40 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:17:41 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:41 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:41 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:17:41 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:17:41 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:17:41 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:17:41 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 20:18:30 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 20:18:30 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 20:18:30 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 20:18:30 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 20:18:30 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 20:18:30 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 20:18:30 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
