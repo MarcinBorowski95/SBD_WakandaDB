@@ -9,13 +9,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-<<<<<<< HEAD
-						"X": 989,
-						"Y": 223
-=======
 						"X": 952,
 						"Y": 100
->>>>>>> Maksym
 					}
 				}
 			},
@@ -36,13 +31,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-<<<<<<< HEAD
-						"X": 1168,
-						"Y": 36
-=======
 						"X": 1259,
 						"Y": 50
->>>>>>> Maksym
 					}
 				}
 			},
@@ -52,67 +42,17 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-<<<<<<< HEAD
-						"X": 513,
-						"Y": 547
-=======
 						"X": 469,
 						"Y": 461
->>>>>>> Maksym
 					}
 				}
 			},
 			"PielegnierkaNazwa": {
 				"panelColor": "#548DD4",
-<<<<<<< HEAD
 				"panel": {
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 980,
-						"Y": 490
-					}
-				}
-			},
-			"LekarzNazwa": {
-				"panelColor": "#B2A2C7",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1304,
-						"Y": 430
-					}
-				}
-			},
-			"AbstractMethod": {
-				"panelColor": "#996699",
-				"panel": {
-					"isOpen": "true",
-					"position": {
-						"X": 82,
-						"Y": 5
-					},
-					"pathVisible": true
-				}
-			},
-			"SzpitalAbstract": {
-				"panelColor": "#eee",
-=======
->>>>>>> Maksym
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-<<<<<<< HEAD
-						"X": 28,
-						"Y": 395
-					}
-				}
-			},
-			"OddzialSzpitalAbstract": {
-				"panelColor": "#548DD4",
-=======
 						"X": 945,
 						"Y": 466
 					}
@@ -120,13 +60,10 @@
 			},
 			"LekarzNazwa": {
 				"panelColor": "#B2A2C7",
->>>>>>> Maksym
 				"panel": {
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-<<<<<<< HEAD
-=======
 						"X": 1304,
 						"Y": 430
 					}
@@ -136,11 +73,11 @@
 				"panelColor": "#996699",
 				"panel": {
 					"isOpen": "true",
+					"pathVisible": true,
 					"position": {
 						"X": 57,
 						"Y": 18
-					},
-					"pathVisible": true
+					}
 				}
 			},
 			"SzpitalAbstract": {
@@ -160,7 +97,6 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
->>>>>>> Maksym
 						"X": 453,
 						"Y": 5
 					}
@@ -170,7 +106,7 @@
 		"model": {
 			"scriptMode": "manual",
 			"workspaceLeft": 0,
-			"workspaceTop": 0,
+			"workspaceTop": 100,
 			"lastScriptLocation": {
 				"PacjentNazwa": {
 					"method": "PacjentNazwa/PacjentNazwa-methods.js"
@@ -197,6 +133,16 @@
 			"className": "AbstractMethod",
 			"collectionName": "AbstractMethodCollection",
 			"scope": "public",
+			"attributes": [
+				{
+					"name": "Abstract_ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
+				}
+			],
 			"methods": [
 				{
 					"name": "Zatrud_Lekarz",
@@ -204,30 +150,6 @@
 					"scope": "publicOnServer",
 					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Lekarz",
 					"userDefined": true
-<<<<<<< HEAD
-				},
-				{
-					"name": "Zatrud_Pielegniarke",
-					"applyTo": "entity",
-					"scope": "publicOnServer",
-					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Pielegniarke",
-					"userDefined": true
-=======
->>>>>>> Maksym
-				}
-			],
-			"attributes": [
-				{
-<<<<<<< HEAD
-					"name": "FakeID",
-=======
-					"name": "Abstract_ID",
->>>>>>> Maksym
-					"scope": "public",
-					"type": "long",
-					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
 				}
 			]
 		},
@@ -239,12 +161,12 @@
 			"extends": "AbstractMethod",
 			"attributes": [
 				{
-					"name": "ID",
+					"name": "Id_Szpital",
 					"kind": "storage",
 					"scope": "public",
+					"unique": true,
 					"type": "long",
-					"primKey": "true",
-					"unique": "true"
+					"primKey": true
 				},
 				{
 					"name": "Adres",
@@ -265,25 +187,6 @@
 					"type": "OddzialSzpitalAbstractCollection",
 					"reversePath": true,
 					"path": "szpitalAbstract"
-<<<<<<< HEAD
-				},
-				{
-					"name": "pielegnierkaNazwaCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PielegnierkaNazwaCollection",
-					"reversePath": true,
-					"path": "Szpital"
-				},
-				{
-					"name": "lekarzNazwaCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "LekarzNazwaCollection",
-					"reversePath": true,
-					"path": "SzpitalL"
-=======
->>>>>>> Maksym
 				}
 			]
 		},
@@ -295,21 +198,12 @@
 			"extends": "SzpitalAbstract",
 			"attributes": [
 				{
-<<<<<<< HEAD
-					"name": "lekarzNazwaCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "LekarzNazwaCollection",
-					"reversePath": true,
-					"path": "oddzialSzpitalAbstract"
-=======
 					"name": "ID_Oddzial",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
->>>>>>> Maksym
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				},
 				{
 					"name": "szpitalAbstract",
@@ -319,39 +213,22 @@
 					"path": "SzpitalAbstract"
 				},
 				{
-<<<<<<< HEAD
-					"name": "pomieszczenieCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PomieszczenieCollection",
-=======
 					"name": "lekarzNazwaCollection",
 					"kind": "relatedEntities",
 					"scope": "public",
 					"type": "LekarzNazwaCollection",
->>>>>>> Maksym
 					"reversePath": true,
 					"path": "oddzialSzpitalAbstract"
 				},
 				{
-<<<<<<< HEAD
-					"name": "ID_Oddzial",
-					"scope": "public",
-					"type": "long",
-					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
-=======
 					"name": "pomieszczenieCollection",
 					"kind": "relatedEntities",
 					"scope": "public",
 					"type": "PomieszczenieCollection",
 					"reversePath": true,
 					"path": "oddzialSzpitalAbstract"
->>>>>>> Maksym
 				}
-			],
-			"primKey": "ID_Oddzial"
+			]
 		},
 		{
 			"name": "Nazwa",
@@ -366,8 +243,7 @@
 					"unique": true,
 					"autosequence": true,
 					"type": "long",
-					"primKey": true,
-					"identifying": false
+					"primKey": true
 				},
 				{
 					"name": "Imie",
@@ -390,17 +266,14 @@
 			"scope": "public",
 			"extends": "Nazwa",
 			"attributes": [
-<<<<<<< HEAD
-=======
 				{
 					"name": "Id_Pacjent",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				},
->>>>>>> Maksym
 				{
 					"name": "Plec",
 					"kind": "storage",
@@ -428,17 +301,6 @@
 					"type": "WizytaCollection",
 					"reversePath": true,
 					"path": "Pacjent"
-<<<<<<< HEAD
-				},
-				{
-					"name": "ID_Pacjent",
-					"scope": "public",
-					"type": "long",
-					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
-=======
->>>>>>> Maksym
 				}
 			],
 			"methods": [
@@ -473,28 +335,12 @@
 					"path": "PacjentNazwa"
 				},
 				{
-<<<<<<< HEAD
-					"name": "Szpital",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "SzpitalAbstract",
-					"path": "SzpitalAbstract"
-				},
-				{
-					"name": "ID_Pielegniarka",
-					"scope": "public",
-					"type": "long",
-					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
-=======
 					"name": "Id_Pielegniarka",
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"unique": "true",
-					"primKey": "true"
->>>>>>> Maksym
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				}
 			],
 			"methods": [
@@ -543,24 +389,12 @@
 					"path": "OddzialSzpitalAbstract"
 				},
 				{
-<<<<<<< HEAD
-					"name": "SzpitalL",
-					"kind": "relatedEntity",
-					"matchColumn": "Szpita",
-					"scope": "public",
-					"type": "SzpitalAbstract",
-					"path": "SzpitalAbstract"
-				},
-				{
-					"name": "ID_Lekarz",
-=======
 					"name": "Id_Lekarz",
->>>>>>> Maksym
-					"scope": "public",
-					"type": "long",
 					"kind": "storage",
-					"primKey": "true",
-					"unique": "true"
+					"scope": "public",
+					"unique": true,
+					"type": "long",
+					"primKey": true
 				}
 			],
 			"methods": [
@@ -657,6 +491,5 @@
 				}
 			]
 		}
-	],
-	"type": []
+	]
 }
