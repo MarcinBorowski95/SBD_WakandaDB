@@ -1,84 +1,484 @@
-2018-05-18 18:27:19 [wakanda.supervisor] INFO - solution closed
-2018-05-18 18:27:19 [wakanda] INFO - Opens the solution "C:\Users\bomar\Documents\Wakanda\solutions\SBD_WakandaDB\app.waSolution" for running
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #10196
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #10196
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #10196
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #10196
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #10196
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
-2018-05-18 18:27:19 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
-2018-05-18 18:28:25 [wakanda.supervisor] INFO - solution closed
-2018-05-18 18:28:25 [wakanda] INFO - Opens the solution "C:\Users\bomar\Documents\Wakanda\solutions\SBD_WakandaDB\app.waSolution" for running
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #27444
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #27444
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #27444
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #27444
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #27444
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
-2018-05-18 18:28:25 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
-2018-05-18 18:28:26 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
-2018-05-18 18:28:59 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
-2018-05-18 18:28:59 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #25708
-2018-05-18 18:28:59 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #25708
-2018-05-18 18:28:59 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #25708
-2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #25708
-2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
-2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #25708
-2018-05-18 18:29:00 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
-2018-05-18 18:29:00 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
-2018-05-18 18:29:00 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
-2018-05-18 18:33:08 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
-2018-05-18 18:33:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #11752
-2018-05-18 18:33:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #11752
-2018-05-18 18:33:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #11752
-2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #11752
-2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
-2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #11752
-2018-05-18 18:33:09 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
-2018-05-18 18:33:09 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
-2018-05-18 18:33:09 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
-2018-05-18 18:33:32 [wakanda.supervisor] INFO - solution closed
-2018-05-18 18:33:32 [wakanda] INFO - Opens the solution "C:\Users\bomar\Documents\Wakanda\solutions\SBD_WakandaDB\app.waSolution" for running
-2018-05-18 18:33:32 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.FakeID built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.SzpitalL built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID_Lekarz built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID_Pacjent built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.Szpital built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Nazwa.ID_Pielegniarka built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
-2018-05-18 18:33:33 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
-2018-05-18 18:33:33 [wakanda] INFO - Starts "SBD_WakandaDB" solution
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
-2018-05-18 18:33:33 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
-2018-05-18 18:33:33 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 584 ms)
-2018-05-18 18:33:33 [wakanda.supervisor] INFO - solution opened
+2018-05-18 18:38:01 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:38:01 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #1388
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #1388
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #1388
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #1388
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #1388
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:38:02 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:39:10 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:39:10 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:39:10 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:39:10 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #4120
+2018-05-18 18:39:10 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #4120
+2018-05-18 18:39:10 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #4120
+2018-05-18 18:39:11 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #4120
+2018-05-18 18:39:11 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:39:11 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #4120
+2018-05-18 18:39:11 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:39:11 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:39:11 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:40:35 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:40:35 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #3392
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #3392
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #3392
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #3392
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #3392
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:40:36 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:42:06 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:42:06 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:42:06 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:42:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #8300
+2018-05-18 18:42:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #8300
+2018-05-18 18:42:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #8300
+2018-05-18 18:42:07 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #8300
+2018-05-18 18:42:07 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:42:07 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #8300
+2018-05-18 18:42:07 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:42:07 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:42:07 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:42:28 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:42:28 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:42:28 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:42:28 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #5504
+2018-05-18 18:42:28 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #5504
+2018-05-18 18:42:28 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #5504
+2018-05-18 18:42:29 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #5504
+2018-05-18 18:42:29 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:42:29 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #5504
+2018-05-18 18:42:29 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:42:29 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:42:29 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:43:02 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:43:02 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #8764
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #8764
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #8764
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #8764
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #8764
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:43:03 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:43:35 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:43:35 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #9352
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #9352
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #9352
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #9352
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #9352
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:43:35 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:44:45 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:44:45 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:44:45 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:44:45 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #3712
+2018-05-18 18:44:45 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #3712
+2018-05-18 18:44:45 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #3712
+2018-05-18 18:44:46 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #3712
+2018-05-18 18:44:46 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:44:46 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #3712
+2018-05-18 18:44:46 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:44:46 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:44:46 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1540] The "OddzialSzpitalAbstract" datastore class has no primary key, task #1204
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1581] Cannot resolve "oddzialSzpitalAbstract" as a relation path, task #1204
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1024] Cannot open structure of database backend, task #1204
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.backend.iasv] ERROR - [1035] Cannot open the datastore, task #1204
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.backend] WARN - "backend" project opened with errors
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.iasv] ERROR - [1013] Cannot open 'backend' project, task #1204
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project closed
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB] WARN - "SBD_WakandaDB" solution opened with errors
+2018-05-18 18:46:10 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution closed
+2018-05-18 18:46:34 [wakanda.supervisor] INFO - solution closed
+2018-05-18 18:46:34 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 18:46:34 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-18 18:46:34 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-18 18:46:34 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-18 18:46:35 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-18 18:46:35 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 967 ms)
+2018-05-18 18:46:35 [wakanda.supervisor] INFO - solution opened
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 18:56:23 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-18 18:56:23 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-18 18:56:23 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-18 18:56:24 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-18 18:56:24 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-18 18:56:24 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-18 18:56:24 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-18 18:56:24 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 982 ms)
+2018-05-18 18:56:24 [wakanda.supervisor] INFO - solution opened
+2018-05-18 18:57:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "LekarzNazwa" datastore class cannot be saved, task #9500, task name is HTTP connection handler
+2018-05-18 18:57:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "LekarzNazwa" datastore class, task #9500, task name is HTTP connection handler
+2018-05-18 18:57:12 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #9500, task name is HTTP connection handler
+2018-05-18 18:57:57 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 18:57:57 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "LekarzNazwa" datastore class cannot be saved, task #9500, task name is HTTP connection handler
+2018-05-18 18:57:57 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "LekarzNazwa" datastore class, task #9500, task name is HTTP connection handler
+2018-05-18 18:57:57 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #9500, task name is HTTP connection handler
+2018-05-18 18:57:57 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:57:57 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 18:57:57 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 18:57:57 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 18:57:57 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 18:58:00 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "LekarzNazwa" datastore class cannot be saved, task #9500, task name is HTTP connection handler
+2018-05-18 18:58:00 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "LekarzNazwa" datastore class, task #9500, task name is HTTP connection handler
+2018-05-18 18:58:00 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #9500, task name is HTTP connection handler
+2018-05-18 18:58:00 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 18:58:00 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:58:00 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 18:58:00 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 18:58:00 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 18:58:00 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 18:58:56 [IndexManager] INFO - Index  on Nazwa.ID built in 1 ms
+2018-05-18 18:58:56 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 18:58:56 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 18:58:56 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 18:58:56 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 18:58:56 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:01:44 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:01:44 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:01:44 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:01:44 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:01:44 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:01:44 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:04:00 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:00 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:04:00 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:04:00 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:04:00 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:04:00 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:04:06 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:06 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:04:06 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:04:06 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:04:06 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:04:06 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:04:25 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:04:40 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:04:53 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:04:53 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:04:53 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:04:53 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:04:53 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:04:53 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:11:53 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:11:53 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:11:53 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:11:53 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:11:53 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:11:53 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:13:29 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.ID built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.Id_Lekarz built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.Id_Pacjent built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 0 ms
+2018-05-18 19:14:33 [IndexManager] INFO - Index  on Nazwa.Id_Pielegniarka built in 0 ms
+2018-05-18 19:17:23 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #9500, task name is HTTP connection handler
+2018-05-18 19:17:23 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #9500, task name is HTTP connection handler
+2018-05-18 19:17:23 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #9500, task name is HTTP connection handler
+2018-05-18 19:17:23 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #9500, task name is HTTP connection handler
+2018-05-18 19:17:23 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #9500, task name is HTTP connection handler
+2018-05-18 19:17:23 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:17:23 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:17:23 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:17:23 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:19:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #9500, task name is HTTP connection handler
+2018-05-18 19:19:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #9500, task name is HTTP connection handler
+2018-05-18 19:19:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #9500, task name is HTTP connection handler
+2018-05-18 19:19:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #9500, task name is HTTP connection handler
+2018-05-18 19:19:06 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:19:06 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #9500, task name is HTTP connection handler
+2018-05-18 19:19:06 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:19:06 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:19:06 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:20:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #9500, task name is HTTP connection handler
+2018-05-18 19:20:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #9500, task name is HTTP connection handler
+2018-05-18 19:20:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #9500, task name is HTTP connection handler
+2018-05-18 19:20:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #9500, task name is HTTP connection handler
+2018-05-18 19:20:12 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #9500, task name is HTTP connection handler
+2018-05-18 19:20:12 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:20:12 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:20:12 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:20:12 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:22:48 [wakanda.supervisor] INFO - solution closed
+2018-05-18 19:22:48 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-18 19:22:49 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-18 19:22:49 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-18 19:22:49 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 789 ms)
+2018-05-18 19:22:49 [wakanda.supervisor] INFO - solution opened
+2018-05-18 19:23:06 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:23:06 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:23:06 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:23:06 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:23:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:06 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:06 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:07 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:23:07 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:07 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:07 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:07 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:07 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:07 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:23:07 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:23:07 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:23:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:08 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:08 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:23:08 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:23:08 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:23:08 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:23:08 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:28:35 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 19:28:35 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 19:28:35 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 19:28:35 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 19:29:22 [IndexManager] INFO - Index  on Wizyta.ID built in 0 ms
+2018-05-18 19:29:22 [IndexManager] INFO - Index  on Wizyta.Pacjent built in 0 ms
+2018-05-18 19:29:22 [IndexManager] INFO - Index  on Wizyta.lekarzNazwa built in 0 ms
+2018-05-18 19:29:22 [IndexManager] INFO - Index  on Wizyta.pomieszczenie built in 0 ms
+2018-05-18 19:32:10 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 19:32:10 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:32:19 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 19:32:19 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:33:08 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 19:33:08 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:33:30 [IndexManager] INFO - Index  on Pomieszczenie.Nr_Pokoju built in 0 ms
+2018-05-18 19:33:30 [IndexManager] INFO - Index  on Pomieszczenie.oddzialSzpitalAbstract built in 0 ms
+2018-05-18 19:34:20 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:34:20 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:34:20 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:34:20 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #8372, task name is HTTP connection handler
+2018-05-18 19:34:20 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:34:20 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:34:20 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:34:20 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:34:20 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:37:34 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:37:34 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1248] Cannot save new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:37:34 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1247] Cannot update new record in table AbstractMethod of database models, task #8372, task name is HTTP connection handler
+2018-05-18 19:37:34 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1116] Mandatory field is Null in record 0 in table AbstractMethod, task #8372, task name is HTTP connection handler
+2018-05-18 19:37:34 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:37:34 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:37:34 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:37:34 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:37:34 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:40:02 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:40:02 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #8372, task name is HTTP connection handler
+2018-05-18 19:40:02 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:40:02 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:40:02 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:40:02 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:40:02 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:40:45 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:40:45 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #8372, task name is HTTP connection handler
+2018-05-18 19:40:45 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:40:45 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:40:45 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:40:45 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:40:45 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:41:01 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #8372, task name is HTTP connection handler
+2018-05-18 19:41:01 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #8372, task name is HTTP connection handler
+2018-05-18 19:41:01 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #8372, task name is HTTP connection handler
+2018-05-18 19:41:01 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:41:01 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:41:01 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:41:01 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:41:54 [wakanda.supervisor] INFO - solution closed
+2018-05-18 19:41:54 [wakanda] INFO - Opens the solution "C:\Users\maksy\OneDrive\Documents\GitHub\SBD_WakandaDB\app.waSolution" for running
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-18 19:41:54 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-18 19:41:54 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-18 19:41:55 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-18 19:41:55 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 955 ms)
+2018-05-18 19:41:55 [wakanda.supervisor] INFO - solution opened
+2018-05-18 19:42:12 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:42:12 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:42:12 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:42:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:12 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:12 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:12 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:42:27 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:42:27 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:27 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:27 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:27 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:42:27 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:42:27 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:42:29 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:29 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:29 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:29 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:42:29 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:42:29 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:42:29 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:42:53 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:53 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:53 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:53 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:42:53 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:42:53 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:42:53 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:42:54 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:54 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:54 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:42:54 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:42:54 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:42:54 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:42:54 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:43:18 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:43:18 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:43:18 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:43:18 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:43:18 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:43:18 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:43:18 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:45:11 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:45:11 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:45:11 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:45:11 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:45:11 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:45:11 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:45:11 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:47:11 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "SzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:47:11 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "SzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:47:11 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:47:11 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:47:11 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:47:11 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:47:11 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
+2018-05-18 19:50:50 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1534] The new entity of the "OddzialSzpitalAbstract" datastore class cannot be saved, task #4100, task name is HTTP connection handler
+2018-05-18 19:50:50 [wakanda.SBD_WakandaDB.backend.dbmg] ERROR - [1546] Primary key is NULL for the new entity in the "OddzialSzpitalAbstract" datastore class, task #4100, task name is HTTP connection handler
+2018-05-18 19:50:50 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/maksy/OneDrive/Documents/GitHub/SBD_WakandaDB/backend/script/script.js, task #4100, task name is HTTP connection handler
+2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.ID built in 0 ms
+2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.Abstract_ID built in 0 ms
+2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
+2018-05-18 19:50:50 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms

@@ -9,8 +9,13 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
+<<<<<<< HEAD
 						"X": 989,
 						"Y": 223
+=======
+						"X": 952,
+						"Y": 100
+>>>>>>> Maksym
 					}
 				}
 			},
@@ -31,8 +36,13 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
+<<<<<<< HEAD
 						"X": 1168,
 						"Y": 36
+=======
+						"X": 1259,
+						"Y": 50
+>>>>>>> Maksym
 					}
 				}
 			},
@@ -42,13 +52,19 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
+<<<<<<< HEAD
 						"X": 513,
 						"Y": 547
+=======
+						"X": 469,
+						"Y": 461
+>>>>>>> Maksym
 					}
 				}
 			},
 			"PielegnierkaNazwa": {
 				"panelColor": "#548DD4",
+<<<<<<< HEAD
 				"panel": {
 					"isOpen": "true",
 					"pathVisible": true,
@@ -82,6 +98,53 @@
 			},
 			"SzpitalAbstract": {
 				"panelColor": "#eee",
+=======
+>>>>>>> Maksym
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+<<<<<<< HEAD
+						"X": 28,
+						"Y": 395
+					}
+				}
+			},
+			"OddzialSzpitalAbstract": {
+				"panelColor": "#548DD4",
+=======
+						"X": 945,
+						"Y": 466
+					}
+				}
+			},
+			"LekarzNazwa": {
+				"panelColor": "#B2A2C7",
+>>>>>>> Maksym
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+<<<<<<< HEAD
+=======
+						"X": 1304,
+						"Y": 430
+					}
+				}
+			},
+			"AbstractMethod": {
+				"panelColor": "#996699",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 57,
+						"Y": 18
+					},
+					"pathVisible": true
+				}
+			},
+			"SzpitalAbstract": {
+				"panelColor": "#eee",
 				"panel": {
 					"isOpen": "true",
 					"pathVisible": true,
@@ -97,6 +160,7 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
+>>>>>>> Maksym
 						"X": 453,
 						"Y": 5
 					}
@@ -140,6 +204,7 @@
 					"scope": "publicOnServer",
 					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Lekarz",
 					"userDefined": true
+<<<<<<< HEAD
 				},
 				{
 					"name": "Zatrud_Pielegniarke",
@@ -147,11 +212,17 @@
 					"scope": "publicOnServer",
 					"from": "$mainModel.AbstractMethod.entityMethods.Zatrud_Pielegniarke",
 					"userDefined": true
+=======
+>>>>>>> Maksym
 				}
 			],
 			"attributes": [
 				{
+<<<<<<< HEAD
 					"name": "FakeID",
+=======
+					"name": "Abstract_ID",
+>>>>>>> Maksym
 					"scope": "public",
 					"type": "long",
 					"kind": "storage",
@@ -194,6 +265,7 @@
 					"type": "OddzialSzpitalAbstractCollection",
 					"reversePath": true,
 					"path": "szpitalAbstract"
+<<<<<<< HEAD
 				},
 				{
 					"name": "pielegnierkaNazwaCollection",
@@ -210,6 +282,8 @@
 					"type": "LekarzNazwaCollection",
 					"reversePath": true,
 					"path": "SzpitalL"
+=======
+>>>>>>> Maksym
 				}
 			]
 		},
@@ -221,12 +295,21 @@
 			"extends": "SzpitalAbstract",
 			"attributes": [
 				{
+<<<<<<< HEAD
 					"name": "lekarzNazwaCollection",
 					"kind": "relatedEntities",
 					"scope": "public",
 					"type": "LekarzNazwaCollection",
 					"reversePath": true,
 					"path": "oddzialSzpitalAbstract"
+=======
+					"name": "ID_Oddzial",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
+>>>>>>> Maksym
 				},
 				{
 					"name": "szpitalAbstract",
@@ -236,22 +319,39 @@
 					"path": "SzpitalAbstract"
 				},
 				{
+<<<<<<< HEAD
 					"name": "pomieszczenieCollection",
 					"kind": "relatedEntities",
 					"scope": "public",
 					"type": "PomieszczenieCollection",
+=======
+					"name": "lekarzNazwaCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "LekarzNazwaCollection",
+>>>>>>> Maksym
 					"reversePath": true,
 					"path": "oddzialSzpitalAbstract"
 				},
 				{
+<<<<<<< HEAD
 					"name": "ID_Oddzial",
 					"scope": "public",
 					"type": "long",
 					"kind": "storage",
 					"primKey": "true",
 					"unique": "true"
+=======
+					"name": "pomieszczenieCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "PomieszczenieCollection",
+					"reversePath": true,
+					"path": "oddzialSzpitalAbstract"
+>>>>>>> Maksym
 				}
-			]
+			],
+			"primKey": "ID_Oddzial"
 		},
 		{
 			"name": "Nazwa",
@@ -266,7 +366,8 @@
 					"unique": true,
 					"autosequence": true,
 					"type": "long",
-					"primKey": true
+					"primKey": true,
+					"identifying": false
 				},
 				{
 					"name": "Imie",
@@ -289,6 +390,17 @@
 			"scope": "public",
 			"extends": "Nazwa",
 			"attributes": [
+<<<<<<< HEAD
+=======
+				{
+					"name": "Id_Pacjent",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"primKey": "true",
+					"unique": "true"
+				},
+>>>>>>> Maksym
 				{
 					"name": "Plec",
 					"kind": "storage",
@@ -316,6 +428,7 @@
 					"type": "WizytaCollection",
 					"reversePath": true,
 					"path": "Pacjent"
+<<<<<<< HEAD
 				},
 				{
 					"name": "ID_Pacjent",
@@ -324,6 +437,8 @@
 					"kind": "storage",
 					"primKey": "true",
 					"unique": "true"
+=======
+>>>>>>> Maksym
 				}
 			],
 			"methods": [
@@ -358,6 +473,7 @@
 					"path": "PacjentNazwa"
 				},
 				{
+<<<<<<< HEAD
 					"name": "Szpital",
 					"kind": "relatedEntity",
 					"scope": "public",
@@ -371,6 +487,14 @@
 					"kind": "storage",
 					"primKey": "true",
 					"unique": "true"
+=======
+					"name": "Id_Pielegniarka",
+					"scope": "public",
+					"type": "long",
+					"kind": "storage",
+					"unique": "true",
+					"primKey": "true"
+>>>>>>> Maksym
 				}
 			],
 			"methods": [
@@ -419,6 +543,7 @@
 					"path": "OddzialSzpitalAbstract"
 				},
 				{
+<<<<<<< HEAD
 					"name": "SzpitalL",
 					"kind": "relatedEntity",
 					"matchColumn": "Szpita",
@@ -428,6 +553,9 @@
 				},
 				{
 					"name": "ID_Lekarz",
+=======
+					"name": "Id_Lekarz",
+>>>>>>> Maksym
 					"scope": "public",
 					"type": "long",
 					"kind": "storage",
