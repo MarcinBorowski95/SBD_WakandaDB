@@ -106,7 +106,7 @@
 		"model": {
 			"scriptMode": "manual",
 			"workspaceLeft": 0,
-			"workspaceTop": 100,
+			"workspaceTop": 200,
 			"lastScriptLocation": {
 				"PacjentNazwa": {
 					"method": "PacjentNazwa/PacjentNazwa-methods.js"
