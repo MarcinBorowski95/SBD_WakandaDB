@@ -702,3 +702,51 @@
 2018-05-18 20:33:23 [IndexManager] INFO - Index  on AbstractMethod.szpitalAbstract built in 0 ms
 2018-05-18 20:33:23 [IndexManager] INFO - Index  on AbstractMethod.ID_Oddzial built in 0 ms
 2018-05-18 20:33:23 [IndexManager] INFO - Index  on AbstractMethod.Id_Szpital built in 0 ms
+2018-05-19 13:55:24 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-19 13:55:25 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-19 13:55:25 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-19 13:55:25 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 875 ms)
+2018-05-19 13:55:25 [wakanda.supervisor] INFO - solution opened
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB] INFO - Users and groups directory opened
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB.backend] INFO - Datastore opened
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project opened
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project opened
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution opened
+2018-05-19 14:16:08 [wakanda] INFO - Starts "SBD_WakandaDB" solution
+2018-05-19 14:16:08 [wakanda.SBD_WakandaDB.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - HTTP Server started
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - "ServerAdmin" project started
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.backend] INFO - HTTP Server started
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.backend] INFO - "backend" project started
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Executes the bootstrap file(s)
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.ServerAdmin] INFO - Bootstrap file(s) executed
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.backend] INFO - Executes the bootstrap file(s)
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.backend] INFO - Bootstrap file(s) executed
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB] INFO - "SBD_WakandaDB" solution started
+2018-05-19 14:16:09 [wakanda] INFO - "SBD_WakandaDB" solution has been successfully opened for running (duration: 550 ms)
+2018-05-19 14:16:09 [wakanda.supervisor] INFO - solution opened
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.backend.jvsc] ERROR - [4055] model.LekarzNazwa.all is not a function, line #1, file:///C:/Users/bomar/Documents/Wakanda/solutions/SBD_WakandaDB/backend/script/script.js., task #33080, task name is HTTP connection handler
+2018-05-19 14:16:09 [wakanda.SBD_WakandaDB.backend.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/bomar/Documents/Wakanda/solutions/SBD_WakandaDB/backend/script/script.js, task #33080, task name is HTTP connection handler
+2018-05-19 14:17:05 [IndexManager] INFO - Index  on Nazwa.Pacjent built in 2 ms
+2018-05-19 14:17:05 [IndexManager] INFO - Index  on Nazwa.oddzialSzpitalAbstract built in 0 ms
+2018-05-19 14:17:05 [IndexManager] INFO - Index  on Nazwa.ID_Pielegniarka built in 0 ms
+2018-05-19 14:17:05 [IndexManager] INFO - Index  on Nazwa.ID built in 1 ms
+2018-05-19 14:17:05 [IndexManager] INFO - Index  on Nazwa.ID_Lekarz built in 0 ms
+2018-05-19 14:17:05 [IndexManager] INFO - Index  on Nazwa.ID_Pacjent built in 0 ms
