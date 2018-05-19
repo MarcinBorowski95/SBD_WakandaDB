@@ -1,0 +1,2 @@
+
+ds.LekarzNazwa.all();
